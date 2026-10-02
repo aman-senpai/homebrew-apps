@@ -15,20 +15,20 @@ A collection of macOS menu bar apps by [aman-senpai](https://github.com/aman-sen
 Tap this repository and install any cask:
 
 ```bash
-brew tap aman-senpai/tap
+brew tap aman-senpai/apps
 brew install --cask <cask-name>
 ```
 
 Or install directly without tapping first:
 
 ```bash
-brew install --cask aman-senpai/tap/<cask-name>
+brew install --cask aman-senpai/apps/<cask-name>
 ```
 
 Or in a `Brewfile`:
 
 ```ruby
-tap "aman-senpai/tap"
+tap "aman-senpai/apps"
 cask "androlaunch"
 ```
 

@@ -1,6 +1,6 @@
 cask "androlaunch" do
-  version "0.3.6"
-  sha256 "8973ea31187413fcaf5e65796e730b39335ed790e3aa22477bd949f21597754b"
+  version "0.3.7"
+  sha256 "865f391613c9a3efbed13da524ae2340a07c4b5d877a4e4780c432b39952376a"
 
   url "https://github.com/aman-senpai/AndroLaunch/releases/download/v#{version}/v#{version}.zip"
   name "AndroLaunch"
@@ -12,7 +12,7 @@ cask "androlaunch" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :sequoia
   depends_on formula: "android-platform-tools"
   depends_on formula: "scrcpy"
 
