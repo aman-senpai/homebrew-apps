@@ -39,6 +39,9 @@ cask "androlaunch"
 > installs the same casks twice and makes bare cask names fail with *"Cask exists in multiple
 > taps"* — use `aman-senpai/apps`, and run `brew untap aman-senpai/tap` if you tapped the old one.
 
+> **Tap trust**: Homebrew 5+ asks you to trust third-party taps before installing from them —
+> accept the prompt, or run `brew trust aman-senpai/apps` (needed in scripts and on CI).
+
 ## Documentation
 
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
