@@ -1,8 +1,8 @@
 cask "androlaunch" do
-  version "0.3.7"
-  sha256 "865f391613c9a3efbed13da524ae2340a07c4b5d877a4e4780c432b39952376a"
+  version "0.3.8"
+  sha256 "f3d202bfe8d8f89c4500344a4ea9cd612da5c852503db8e60cadd079378ab6ae"
 
-  url "https://github.com/aman-senpai/AndroLaunch/releases/download/v#{version}/v#{version}.zip"
+  url "https://github.com/aman-senpai/AndroLaunch/releases/download/v#{version}/v#{version}-macos.zip"
   name "AndroLaunch"
   desc "Cross-platform Android device management — screen mirroring, app management, file explorer, and emulator control"
   homepage "https://github.com/aman-senpai/AndroLaunch"
