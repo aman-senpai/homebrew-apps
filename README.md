@@ -13,17 +13,18 @@ A collection of macOS menu bar apps by [aman-senpai](https://github.com/aman-sen
 
 ## Installation
 
-Tap this repository and install any cask:
+Install any cask directly — the tap is fetched on demand and the tap-qualified name cannot collide
+with the old tap name:
+
+```bash
+brew install --cask aman-senpai/apps/<cask-name>
+```
+
+Or tap once and use the short name:
 
 ```bash
 brew tap aman-senpai/apps
 brew install --cask <cask-name>
-```
-
-Or install directly without tapping first:
-
-```bash
-brew install --cask aman-senpai/apps/<cask-name>
 ```
 
 Or in a `Brewfile`:
