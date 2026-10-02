@@ -1,6 +1,6 @@
 cask "androlaunch" do
-  version "0.3.8"
-  sha256 "f3d202bfe8d8f89c4500344a4ea9cd612da5c852503db8e60cadd079378ab6ae"
+  version "0.3.9"
+  sha256 "5445a7958bbf87ab2d2532f5986fc1206c6f2a3423d5b6c08a4fb55f41cf1721"
 
   url "https://github.com/aman-senpai/AndroLaunch/releases/download/v#{version}/v#{version}-macos.zip"
   name "AndroLaunch"
