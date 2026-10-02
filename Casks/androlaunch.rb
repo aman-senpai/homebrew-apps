@@ -13,7 +13,7 @@ cask "androlaunch" do
   end
 
   depends_on macos: :sequoia
-  depends_on formula: "android-platform-tools"
+  depends_on cask: "android-platform-tools"
   depends_on formula: "scrcpy"
 
   app "AndroLaunch.app"
