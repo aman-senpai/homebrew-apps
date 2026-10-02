@@ -16,6 +16,12 @@ cask "androlaunch" do
   depends_on cask: "android-platform-tools"
   depends_on formula: "scrcpy"
 
+  caveats <<~EOS
+    AndroLaunch is ad-hoc signed (not notarized), so macOS may refuse the first launch.
+    If that happens, right-click AndroLaunch in /Applications and choose "Open", or run:
+      xattr -dr com.apple.quarantine "/Applications/AndroLaunch.app"
+  EOS
+
   app "AndroLaunch.app"
 
   zap trash: [
